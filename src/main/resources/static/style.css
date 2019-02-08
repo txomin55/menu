@@ -1,0 +1,10 @@
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+
+.menu-wrapper{
+	padding:2em;
+	width:50%;
+}
