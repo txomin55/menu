@@ -1,6 +1,12 @@
 # Menú V1
 Selección de diferentes platos de menú a partir de un fichero.
 
+## Tecnologías
+* Vue
+* SpringBoot
+* Maven
+* Java
+
 ## Instrucciones 
 Hace falta tener una carpeta llamada "menu" en la carpeta home del usuario en la que se tiene que encontrar un fichero con el nombre "fichero.txt" donde se encuentran los platos del menú, además dentro de esta misma carpeta tiene que haber otra llamada "elecciones" donde se incluyen las elecciones de los usuarios creando un fichero con el identificador fijado.
 
