@@ -15,3 +15,19 @@ Hace falta tener una carpeta llamada "menu" en la carpeta home del usuario en la
 primero>*1:lentejas:34:1,2,3:Lentejas con zanahoria*2:garbanzos:50:1,2,3:Garbanzos con callos*3:judias:25::Judias con jamon
 segundo>*5:filete:60:1:filete de ternera*15:cerdo:75::lomo de cerdo
 ```
+
+## Imágenes de alérgenos
+1. Altramuces
+2. Apio
+3. Cacahuetes
+4. Crustáceos
+5. Frutos de cáscara
+6. Gluten
+7. Huevos
+8. Leche y lactosa
+9. Moluscos
+10. Mostaza
+11. Pescado
+12. Semillas de sésamo
+13. Soja
+14. Sulfitos
