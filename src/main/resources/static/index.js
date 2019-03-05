@@ -5,7 +5,8 @@ Vue.component('dish', {
       nombre : this.plato.nombre,
       descripcion : this.plato.descripcion + " (" + this.plato.kcal + " kcal)",
       idPlato : this.plato.idPlato,
-      seleccionado : null
+      seleccionado : null,
+      alergenos : this.plato.alergenos
     }
   },
   props: ['plato', 'platoSeleccionado', 'bus'],
@@ -35,7 +36,7 @@ Vue.component('dish', {
   mounted : function(){
     this.bus.$on('submit', this.deseleccionarPlato)
   },
-  template: '<vs-list-item :title="nombre" :subtitle="descripcion"><vs-radio v-model="seleccionado" :vs-value="idPlato"></vs-radio></vs-list-item>'
+  template: '<vs-list-item :title="nombre" :subtitle="descripcion"><div class="imagenes"><img :key="image" :src="`images/${image}.png`" v-for="(image, index) in alergenos" height="70" width="70"/></div><div class="radio"><vs-radio v-model="seleccionado" :vs-value="idPlato"></vs-radio></div></vs-list-item>'
 });
 
 //ELEMTNO DE LISTA
